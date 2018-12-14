@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/springmvc.iml" filepath="$PROJECT_DIR$/springmvc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvcbase/springmvcbase.iml" filepath="$PROJECT_DIR$/springmvcbase/springmvcbase.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvcmapper/springmvcmapper.iml" filepath="$PROJECT_DIR$/springmvcmapper/springmvcmapper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springmvcmethodresolver/springmvcmethodresolver.iml" filepath="$PROJECT_DIR$/springmvcmethodresolver/springmvcmethodresolver.iml" />
+    </modules>
+  </component>
+</project>
