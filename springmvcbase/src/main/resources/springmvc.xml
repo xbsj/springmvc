@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+       http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd ">
+
+    <!-- 配置处理器映射器 -->
+    <bean name="/hello" class="com.xbsj.controller.HelloController" />
+
+    <!-- 配置视图解析器,根据Controller传过来的逻辑视图，解析成真正的视图-->
+    <bean class="org.springframework.web.servlet.view.InternalResourceViewResolver">
+        <property name="prefix" value="/" />  <!-- 前缀 -->
+        <property name="suffix" value=".jsp" />  <!-- 后缀 -->
+    </bean>
+
+</beans>
